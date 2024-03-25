@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  /* border: 1px solid; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.header-name {
+  font-size: 20px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-menu div {
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 4px 14px;
+}
+
+.sidebar {
+  display: none;
+}
+
+.sidebar-open-icon {
+  font-size: 30px;
+  display: none;
+}
+
+.sidebar-close-icon {
+  font-size: 30px;
+  display: none;
+}
+
+.section-one {
+  /* border: 1px solid; */
+  padding: 80px 40px;
+  background-color: #f3f0f0;
+}
+
+.section-one div {
+  width: 50%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.section-two {
+  /* border: 1px solid; */
+  display: flex;
+  padding: 34px 40px;
+  gap: 10px;
+}
+
+.section-two-image {
+  border: 2px solid #d4d3d3;
+  width: 50%;
+  height: 450px;
+  background-color: #fafafa;
+}
+
+.section-two-text {
+  /* border: 1px solid; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.section-two-heading-title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.section-two-heading-desc {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.section-two-desc {
+  margin-top: 10px;
+}
+
+.section-three {
+  /* border: 1px solid; */
+  padding: 34px 40px;
+  background-color: #f3f0f0;
+}
+
+.section-three-text-container {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+}
+
+.section-three-text {
+  /* border: 1px solid; */
+  text-align: center;
+  width: 50%;
+}
+
+.section-three-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section-three-sub-title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.section-three-desc {
+  margin-top: 10px;
+}
+
+.section-three-box-text-container {
+  /* border: 1px solid; */
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.section-three-box-text-container div {
+  border: 2px solid #d4d3d3;
+  background-color: white;
+  height: 350px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 60px;
+}
+
+.section-four {
+  /* border: 1px solid; */
+  padding: 34px 40px;
+}
+
+.section-four-circle-div-container {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.section-four-circle-container {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.section-four-circle-container div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.section-five {
+  /* border: 1px solid; */
+  background-color: #f3f0f0;
+  padding: 34px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.section-six {
+  /* border: 1px solid; */
+  padding: 34px 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding: 12px 20px;
+  }
+
+  .sidebar {
+    border: 1px solid;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    /* display: block; */
+  }
+
+  .sidebar-open-icon {
+    display: block;
+  }
+
+  .sidebar div {
+    /* border: 1px solid; */
+    font-size: 18px;
+    padding: 4px 10px;
+  }
+
+  .section-one {
+    padding: 80px 14px;
+  }
+
+  .section-one div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-two {
+    flex-direction: column;
+    padding: 30px 14px;
+  }
+
+  .section-two-image {
+    width: 100%;
+  }
+
+  .section-two-text {
+    width: 100%;
+  }
+
+  .section-three {
+    padding: 30px 14px;
+  }
+
+  .section-three-text {
+    width: 100%;
+  }
+
+  .section-three-box-text-container {
+    flex-direction: column;
+  }
+
+  .section-three-box-text-container div {
+    width: 100%;
+  }
+
+  .section-four {
+    padding: 30px 14px;
+  }
+
+  .section-five {
+    padding: 30px 14px;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .section-six {
+    padding: 30px 14px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+
+}
