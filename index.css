@@ -2,6 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.6px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 16px;
 }
 
 .header {
@@ -53,7 +70,7 @@
 
 .section-one div {
   width: 50%;
-  font-size: 30px;
+  font-size: 44px;
   font-weight: bold;
 }
 
@@ -61,7 +78,7 @@
   /* border: 1px solid; */
   display: flex;
   padding: 34px 40px;
-  gap: 10px;
+  gap: 50px;
 }
 
 .section-two-image {
@@ -78,20 +95,6 @@
   flex-direction: column;
   justify-content: center;
   padding-right: 30px;
-}
-
-.section-two-heading-title {
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.section-two-heading-desc {
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.section-two-desc {
-  margin-top: 10px;
 }
 
 .section-three {
@@ -129,7 +132,7 @@
 .section-three-box-text-container {
   /* border: 1px solid; */
   display: flex;
-  gap: 10px;
+  gap: 50px;
   margin-top: 16px;
 }
 
@@ -138,7 +141,7 @@
   background-color: white;
   height: 350px;
   width: 50%;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 18px;
   display: flex;
   align-items: center;
@@ -156,7 +159,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 30px;
-  gap: 30px;
+  gap: 50px;
 }
 
 .section-four-circle-container {
@@ -181,7 +184,7 @@
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
-  gap: 10px;
+  gap: 50px;
 }
 
 .section-six {
@@ -189,7 +192,7 @@
   padding: 34px 40px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 50px;
 }
 
 @media (max-width: 800px) {
